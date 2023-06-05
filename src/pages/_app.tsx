@@ -36,9 +36,9 @@ export default function App({ Component, pageProps }) {
         <ChakraProvider theme={theme}>
           <NotificationProvider>
             <main className={inter.className}>
-              <Layout>
+             
                 <Component {...pageProps} />
-              </Layout>
+              
             </main>
           </NotificationProvider>
         </ChakraProvider>
